@@ -1,0 +1,24 @@
+.home-container {
+          
+  background: url("file:///D:/Downloads/iPortfolio/iPortfolio/assets/img/hero-bg.jpg");
+   background-size: cover;
+   height: 100vh;
+}
+.name-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:300px;
+}
+.name-heading {
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 56px;
+          color: #fff;
+          font-family: "Raleway", sans-serif;
+}
+.para {
+ color:yellow;
+ font-size: 27px;
+ font-family: sans-serif;
+}

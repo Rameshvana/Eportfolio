@@ -1,0 +1,89 @@
+.ip-heading {
+  text-align: center;
+  background-color: #023b6d;
+  color:white;
+  padding: 8px;
+  position:abosolute;
+  font-size:20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.admin-view {
+  background-color: black;
+  
+}
+
+.profile-img {
+  height: 120px;
+  border: 3px solid #2c2f3f;
+  border-radius: 80%!important;
+  max-width: 30%;
+  height: auto;
+}
+
+.profile-title {
+          font-size: 25px;
+          font-weight: 600;
+          font-family: "Poppins", sans-serif;
+          color: whitesmoke;
+          margin: 10px 0px 15px 0px;
+}
+.profile-card {
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top:40px;
+}
+
+.social-links {
+ display: flex;
+ list-style-type: none;
+}
+
+.icon {
+color: #fff;
+font-size:24px;
+margin:15px;
+border-radius: 10px;
+}
+
+
+
+.nav-icon {
+          font-size: 24px;
+          padding-right: 8px;
+          color: #6f7180;
+          font-size:35px;
+}
+
+span {
+font-size:17px;
+font-weight: 450;
+color:white;
+}
+
+.nav-menu {
+ margin-top:30px;
+ margin: 35px 0px 0px 20px;
+ font-style: italic;
+}
+
+.nav-link {
+display: flex;
+align-items: center;
+margin-top:24px;
+}
+a {text-decoration: none; }
+
+.right-card {
+ color: #fff;
+text-align: center; 
+margin-top: 220px;
+}
+span {
+ font-weight: 500;
+}
+.boot {
+  color:#ad8ee2
+}
