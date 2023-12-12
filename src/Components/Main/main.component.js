@@ -11,12 +11,18 @@ import './main.component.css'
 import HomeSection from '../Home/home.component';
 import AboutSecction from '../About/about.component';
 
+import SkillComponent from '../Skills/skill.component';
+import ResumeComponent from '../Resume/resume.component';
+import PortfolioComponent from '../Portfolio/portfolio.component';
+
+
 //<p className='ip-heading'>@IPortfolio</p>
 
 class MainComponent extends Component{
   render(){
     return (
       <div>
+      
           <div className='row'>
 
             <div className='col-3 admin-view'>
@@ -33,8 +39,8 @@ class MainComponent extends Component{
                 </div>
               </div>
               <ul className='nav-menu'>
-                <a href='#'> <li className='nav-link'><AiOutlineHome className='nav-icon'/><span>Home</span></li></a>
-                <a href='#'><li className='nav-link'><FiUser className='nav-icon'/><span>About</span></li></a>
+                <a href='#HomeSection'> <li className='nav-link'><AiOutlineHome className='nav-icon'/><span>Home</span></li></a>
+                <a href='#AboutSection'><li className='nav-link'><FiUser className='nav-icon'/><span>About</span></li></a>
                 <a href='#'><li className='nav-link'><SiReacthookform className='nav-icon'/><span>Resume</span></li></a>
                 <a href='#'><li className='nav-link'><RiBookOpenLine className='nav-icon'/><span>Portfolio</span></li></a>
                 <a href='#'><li className='nav-link'><CiServer className='nav-icon'/><span>Services</span></li></a>
@@ -45,17 +51,24 @@ class MainComponent extends Component{
               </div>
             </div>
 
-            <div className='col-9'>
-              <div>
-                <HomeSection/>
-              </div>
-              <div>
-                <AboutSecction/>
-              </div>
+            <div className='col-9 user-view'>
+
+                <div id='HomeSection'>
+                  <HomeSection/>
+                </div>
+                <div id='ResumeSection'>
+                    <ResumeComponent/>
+                </div>
+                <div>
+                  <PortfolioComponent/>
+                </div>
+               
+
             </div>
 
           </div>
-      </div>
+          </div>
+      
     )
   }
 }

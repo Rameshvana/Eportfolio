@@ -2,7 +2,10 @@ import { FaGreaterThan } from "react-icons/fa6";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { SlEmotsmile } from "react-icons/sl";
 import { BsJournalRichtext } from "react-icons/bs";
+import { FaHeadset } from "react-icons/fa6";
+import { IoPeople } from "react-icons/io5";
 import './about.component.css'
+import SkillComponent from "../Skills/skill.component";
 
 const AboutSecction = () => {
   return(
@@ -42,7 +45,7 @@ const AboutSecction = () => {
              Quisquam quos quisquam cupiditate.
             Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           <div className="skills-catainer">
-                    <div className="skill">
+                    <div className="fact">
                     <SlEmotsmile className="fact-icon"/>
                     <div>
                     <strong className="a-strong">232</strong> <br/>
@@ -51,7 +54,7 @@ const AboutSecction = () => {
                     </div>
                     </div>  
           
-                    <div className="skill">
+                    <div className="fact">
                     <BsJournalRichtext className="fact-icon"/>
                     <div>
                     <strong className="a-strong">521</strong> <br/>
@@ -59,24 +62,24 @@ const AboutSecction = () => {
                     <p>cum quia aut</p>
                     </div>
                     </div>
-                    <div className="skill">
-            <SlEmotsmile className="fact-icon"/>
+                    <div className="fact">
+            <FaHeadset className="fact-icon"/>
             <div>
               <strong className="a-strong">1453</strong> <br/>
               <span className="about-span">Hours Of Support aut</span>
               <p>consequuntur quae</p>
             </div>
           </div> 
-          <div className="skill">
-            <SlEmotsmile className="fact-icon"/>
+          <div className="fact">
+            <IoPeople  className="fact-icon"/>
             <div>
-              <strong className="a-strong">232</strong> <br/>
+              <strong className="a-strong">32</strong> <br/>
               <span className="about-span">Happy Clients</span>
               <p>consequuntur quae</p>
             </div>
           </div> 
           </div>
-         
+         <SkillComponent/>
      </div>
   )
 }

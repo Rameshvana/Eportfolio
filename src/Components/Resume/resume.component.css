@@ -1,0 +1,37 @@
+.resume-title{
+          font-size: 37px;
+          font-weight: bold;
+          color: #173b6c;
+          padding-bottom: 10px;
+          padding-top:30px;
+}
+.resume-para{
+          font-family: Roboto;  
+          font-size:19px;
+}
+.nav {
+          content: "";
+          position: absolute;
+          width: 16px;
+          height: 16px;
+          border-radius: 50px;
+          left: -9px;
+          top: 0;
+          background: #fff;
+          border: 2px solid #1f5297;
+}
+.summary-para {
+font-size: 17px;
+}
+.sumary-head{
+  font-weight: 600;
+  font-style: italic;
+}
+.yaer_of{
+          font-size: 16px;
+          background: #e4edf9;
+          padding: 5px 15px;
+          display: inline-block;
+          font-weight: 600;
+          margin-bottom: 10px;
+}

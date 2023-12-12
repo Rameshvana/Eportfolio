@@ -1,0 +1,41 @@
+.skill-title{
+          font-size: 35px;
+         font-weight: bold;
+         color: #173b6c;
+         padding-bottom: 20px;
+         
+       }
+.skill-para {
+          font-family: Roboto;  
+          font-size:19px;
+}
+.skill-card{
+   background: #f5f8fd;
+   padding: 20px;
+}
+
+.progress {
+          height: 60px;
+          display: block;
+          background: none;
+          border-radius: 0;
+      }
+      .skill {
+          padding: 0;
+          margin: 0 0 6px 0;
+          text-transform: uppercase;
+          display: block;
+          font-weight: 600;
+          font-family: "Poppins", sans-serif;
+          color: #050d18;
+      }
+      .progress-bar-wrap {
+          background: #dce8f8;
+          height: 10px;
+      }  
+      .progress-bar {
+          width: 1px;
+          height: 10px;
+          transition: 0.9s;
+          background-color: #149ddd;
+      }             
