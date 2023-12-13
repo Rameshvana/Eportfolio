@@ -1,3 +1,7 @@
+.portfolio-card{
+          background: #f5f8fd;
+         }
+
 .portfo-title{
           font-size: 37px;
           font-weight: bold;
@@ -8,4 +12,37 @@
 .portfo-para{
           font-family: Roboto;  
           font-size:19px;
+}
+.portfolio-flters {
+          padding: 0;
+          margin: 0 auto 35px auto;
+          list-style: none;
+          text-align: center;
+          background: #fff;
+          border-radius: 50px;
+          padding: 2px 15px;
+          display: flex;
+          justify-content: center;
+          
+        }
+
+.filter{
+ padding:15px;
+ font-size:20px;
+ background-color: transparent;
+ border-width: 0px;
+ font-weight: 500;
+}        
+.portfolio-card{
+ background: #f5f8fd;
+}
+.img-fluid{
+          max-width: 100%;
+          height: 31vh;
+          margin-right: 35px;
+}
+
+.images-card{
+ display: flex;
+ flex-wrap: wrap;
 }

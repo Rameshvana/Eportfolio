@@ -14,6 +14,8 @@ import AboutSecction from '../About/about.component';
 import SkillComponent from '../Skills/skill.component';
 import ResumeComponent from '../Resume/resume.component';
 import PortfolioComponent from '../Portfolio/portfolio.component';
+import ServiceComponent from '../Service/service.component';
+import ContactComponent from '../Contact/contact.component';
 
 
 //<p className='ip-heading'>@IPortfolio</p>
@@ -41,10 +43,10 @@ class MainComponent extends Component{
               <ul className='nav-menu'>
                 <a href='#HomeSection'> <li className='nav-link'><AiOutlineHome className='nav-icon'/><span>Home</span></li></a>
                 <a href='#AboutSection'><li className='nav-link'><FiUser className='nav-icon'/><span>About</span></li></a>
-                <a href='#'><li className='nav-link'><SiReacthookform className='nav-icon'/><span>Resume</span></li></a>
-                <a href='#'><li className='nav-link'><RiBookOpenLine className='nav-icon'/><span>Portfolio</span></li></a>
-                <a href='#'><li className='nav-link'><CiServer className='nav-icon'/><span>Services</span></li></a>
-                <a href='#'><li className='nav-link'><IoIosMail className='nav-icon'/><span>Contact</span></li></a>
+                <a href='#ResumeSection'><li className='nav-link'><SiReacthookform className='nav-icon'/><span>Resume</span></li></a>
+                <a href='#PortfolioSection'><li className='nav-link'><RiBookOpenLine className='nav-icon'/><span>Portfolio</span></li></a>
+                <a href='#ServiceSection'><li className='nav-link'><CiServer className='nav-icon'/><span>Services</span></li></a>
+                <a href='#ContactSection'><li className='nav-link'><IoIosMail className='nav-icon'/><span>Contact</span></li></a>
               </ul>
               <div className='right-card'>
                 <p>@ Copyright <span>iPortfolio</span> <br/> Designed by <span className='boot'>BootstrapMode</span></p>
@@ -52,21 +54,31 @@ class MainComponent extends Component{
             </div>
 
             <div className='col-9 user-view'>
-
                 <div id='HomeSection'>
                   <HomeSection/>
                 </div>
                 <div id='ResumeSection'>
                     <ResumeComponent/>
                 </div>
-                <div>
+                <div id='PortfolioSection'>
                   <PortfolioComponent/>
+                </div>
+                <div id='ServiceSection'>
+                  <ServiceComponent/>
+                </div>
+
+                <div id='ContactSection'>
+                  <ContactComponent/>
+                </div>
+                <div id='AboutSection'>
+                  <AboutSecction/>
                 </div>
                
 
             </div>
 
           </div>
+          
           </div>
       
     )

@@ -11,6 +11,7 @@
 
 .admin-view {
   background-color: black;
+ 
   
 }
 
@@ -91,5 +92,5 @@ span {
 .user-view {
   
 
-  height: 500vh;
+  height: 600vh;
 }
