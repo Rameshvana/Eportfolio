@@ -11,15 +11,15 @@ const ServiceComponent = () => {
        Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
        <div className="row mt-5">
          <div className="col-4">
-         <div>
+         <div className="service-tin">
           <BsBriefcase className="service-icon"/>
           <div>
              <h4 className="service-head">Lorem Ipsum</h4> 
              <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>      
           </div>
        </div>  
-       <div>
-          < BsBinoculars    className="service-icon"/>
+       <div >
+          < BsBinoculars className="service-icon"/>
           <div>
              <h4 className="service-head">Magni Dolores</h4> 
              <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumt</p>      
@@ -27,7 +27,7 @@ const ServiceComponent = () => {
        </div>
          </div>
          <div className="col-4">
-         <div>
+         <div className="service-tin">
           < BsCardChecklist className="service-icon"/>
           <div>
              <h4 className="service-head">Dolor Sitema</h4> 
@@ -43,7 +43,7 @@ const ServiceComponent = () => {
        </div>
          </div>
          <div className="col-4">
-         <div>
+         <div className="service-tin">
           <FaChartSimple className="service-icon"/>
           <div>
              <h4 className="service-head">Sed ut perspiciatis</h4> 

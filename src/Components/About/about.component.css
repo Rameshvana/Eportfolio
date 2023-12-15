@@ -7,10 +7,12 @@
 }
 
 .about-title {          
-font-size: 35px;
+font-size: 50px;
+font-style: italic;
 font-weight: bold;
 color: #173b6c;
 padding-bottom: 20px;
+padding-top: 50px;
 }
 .about-title-para {
   font-size: 17px;

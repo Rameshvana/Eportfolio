@@ -11,8 +11,7 @@
 
 .admin-view {
   background-color: black;
- 
-  
+  height: 100vh;
 }
 
 .profile-img {
@@ -90,7 +89,6 @@ span {
 }
 
 .user-view {
-  
-
-  height: 600vh;
+ height: 100vh;
+ overflow-y: scroll;
 }

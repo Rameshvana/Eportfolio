@@ -1,6 +1,6 @@
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-function WithLabelExample(A) {
+function WithLabelExample() {
 
   const now = 85;
   return <ProgressBar now={now} label={`${now}%`} />;

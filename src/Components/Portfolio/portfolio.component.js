@@ -8,7 +8,7 @@ const PortfolioComponent = () => {
        Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
        <div>
          <ul className='portfolio-flters'>
-         <button className='filter'>All</button>
+           <button className='filter'>All</button>
            <button className='filter'>APP</button>
            <button className='filter'>CARD</button>
            <button className='filter'>WEB</button>
