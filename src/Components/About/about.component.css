@@ -2,7 +2,6 @@
  height: 100vh;
  margin-top: 30px;
  font-family:  sans-serif;
-
  padding-right: 20px;
 }
 
@@ -11,8 +10,7 @@ font-size: 50px;
 font-style: italic;
 font-weight: bold;
 color: #173b6c;
-padding-bottom: 20px;
-padding-top: 50px;
+padding: 20px 0px 0px 0px;
 }
 .about-title-para {
   font-size: 17px;
@@ -20,7 +18,8 @@ padding-top: 50px;
 
 .about-img {
 margin-right: 25px;
-height: 50vh;
+height: 55vh;
+border-radius: 4px;
 
 }
 .about-profile-title{
@@ -67,8 +66,7 @@ li {
    font-size: 35px;
   font-weight: bold;
   color: #173b6c;
-  padding-bottom: 20px;
-  margin-top: 40px;
+  padding:10px 0px 0px 0px;
 }
 .facts-title-para{
 font-family: Roboto;  

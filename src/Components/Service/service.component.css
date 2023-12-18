@@ -1,33 +1,36 @@
-.service-title{
+.service-title {
     font-size: 50px;
     font-style: italic;
-    padding-top: 40px;
-          font-weight: bold;
-          color: #173b6c;
-          padding-bottom: 10px;
-          padding-top:40px;
+    font-weight: bold;
+    color: #173b6c;
+    padding: 10px 0px 5px 0px;
 }
-.service-para{
-          font-family: Roboto;  
-          font-size:19px;
+
+.service-para {
+    font-family: Roboto;
+    font-size: 19px;
 }
+
 .service-icon {
-float: left;
-    font-size:39px;
+    float: left;
+    font-size: 39px;
     color: #149ddd;
-   
+
 }
+
 .service-head {
-          margin-left: 50px;
-          font-weight: 700;
-          margin-bottom: 15px;
-          font-size: 18px;
+    margin-left: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
+
 .description {
-          margin-left: 50px;
-          line-height: 24px;
-          font-size: 14px;
-      }
-.service-tin{
- margin-bottom: 50px;
-}      
+    margin-left: 50px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.service-tin {
+    margin-bottom: 50px;
+}

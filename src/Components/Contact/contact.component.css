@@ -1,62 +1,67 @@
-.contact-title{
-          font-size: 50px;
-          font-weight: bold;
-          color: #173b6c;
-          padding-bottom: 10px;
-          padding-top:40px;
-          font-style: italic;
-          padding-top: 50px;
+.contact-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #173b6c;
+  padding-top: 10px;
+  font-style: italic;
 }
-.contact-para{
-          font-family: Roboto;  
-          font-size:19px;
+
+.contact-para {
+  font-family: Roboto;
+  font-size: 19px;
 }
+
 .user-input-card {
   background-color: whitesmoke;
   padding: 20px;
-  
 }
-.submit-btn{
-          background: #149ddd;
-          border: 0;
-          padding: 10px 22px;
-          color: #fff;
-          transition: 0.4s;
-          border-radius: 4px;
-          margin-top:10px;
-        }
-input{
-padding:10px;
-width:23vw;
+
+.submit-btn {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 22px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 10px;
 }
-label{
- margin-bottom: 10px;
- font-style: italic;
-}        
+
+input {
+  padding: 10px;
+  width: 23vw;
+}
+
+label {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
 .location-card {
-   background-color: whitesmoke;
-   padding: 20px;
-   padding-left: 20px;
-   
+  background-color: whitesmoke;
+  padding: 20px;
+  padding-left: 20px;
 }
+
 .address {
- list-style: none;
- display: flex;
- 
+  list-style: none;
+  display: flex;
 }
-.contact-icon{
- color:#149ddd;
- font-size: 35px;;
- margin:2px 5px 0px 0px;
+
+.contact-icon {
+  color: #149ddd;
+  font-size: 35px;
+  margin: 2px 5px 0px 0px;
 }
+
 .info {
-          padding: 30px;
-          background: #fff;
-          width: 100%;
-          box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-          background-color: whitesmoke;
-          padding: 20px;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  background-color: whitesmoke;
+  padding: 20px;
 }
+
 .contact-card {
- height: 100vh;
+  height: 100vh;
 }

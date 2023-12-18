@@ -20,7 +20,7 @@ import ContactComponent from '../Contact/contact.component';
 
 //<p className='ip-heading'>@IPortfolio</p>
 
-class MainComponent extends Component{
+class MainComponent extends Component {
   render(){
     return (
       <div>
@@ -34,7 +34,7 @@ class MainComponent extends Component{
                 <div className='social-links'>
                     <a href='#'><li><FaTwitter className='icon'/></li></a>
                     <a href='#'><li><FaFacebookF  className='icon'/></li></a>
-                    <a href='#'><li><FaInstagram  className='icon'/></li></a>
+                    <a href=''><li><FaInstagram  className='icon'/></li></a>
                     <a href='#'><li><FaSkype  className='icon'/></li></a>
                     <a href='#'><li><FaLinkedinIn  className='icon'/></li></a>
                 </div>
@@ -47,7 +47,7 @@ class MainComponent extends Component{
                 <a href='#ServiceSection'><li className='nav-link'><CiServer className='nav-icon'/><span>Services</span></li></a>
                 <a href='#ContactSection'><li className='nav-link'><IoIosMail className='nav-icon'/><span>Contact</span></li></a>
               </ul>
-              <div className='right-card'>
+              <div className='copyright-card'>
                 <p>@ Copyright <span>iPortfolio</span> <br/> Designed by <span className='boot'>BootstrapMode</span></p>
               </div>
             </div>
