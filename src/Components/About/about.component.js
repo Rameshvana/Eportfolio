@@ -31,7 +31,7 @@ const AboutSecction = () => {
               <ul className='details-card'>
                 <li><FaGreaterThan className="about-icon" /><strong>Age:</strong><span className='about-span'>30</span></li>
                 <li><FaGreaterThan className="about-icon" /><strong>Degree:</strong><span className='about-span'>Master</span></li>
-                <li><FaGreaterThan className="about-icon" /><strong>phEmailone:</strong><span className='about-span'>email.example.com </span></li>
+                <li><FaGreaterThan className="about-icon" /><strong>Email:</strong><span className='about-span'>email.example.com </span></li>
                 <li><FaGreaterThan className="about-icon" /><strong>Freelance:</strong><span className='about-span'>Available</span></li>
               </ul>
             </div>

@@ -1,12 +1,43 @@
-import { BsGeoAlt } from "react-icons/bs";
-import { BsEnvelope } from "react-icons/bs";
+import { BsGeoAlt ,BsEnvelope} from "react-icons/bs";
 import { IoIosPhonePortrait } from "react-icons/io";
 
 import './contact.component.css'
+import { SaveData } from "../Servicess/userContext";
 
 
 
 const ContactComponent = () => {
+   
+
+   const cancatUserData = (e) => {
+    e.preventDefault();
+    console.log(document.getElementById('name').value)
+    let name = document.getElementById('name').value
+    let email = document.getElementById('email').value
+    let subject = document.getElementById('subject').value
+    let message = document.getElementById('message').value
+  
+
+    const data = {
+      name,
+      email,
+      subject,
+      message
+    }
+    SaveData(data)
+    .then((res) => {
+      alert('Data Save successfully...')
+
+      document.getElementById('name').value=''
+      document.getElementById('email').value=''
+      document.getElementById('subject').value=''
+      document.getElementById('message').value=''
+    })
+    .catch(() => {
+      alert('Data not Save')
+    })
+   
+   }
 
    return (
       <div className="contact-card">
@@ -42,28 +73,28 @@ const ContactComponent = () => {
 
                   </div>
                </div>
-               <div className=' col-6 user-input-card'>
+               <form className=' col-6 user-input-card' onSubmit={cancatUserData}>
                   <div>
                      <label htmlFor='name'>Your Name</label> <br />
-                     <input type='text' name='name' id='name'></input>
+                     <input type='text' name='name' id='name' required></input>
                   </div>
                   <div>
                      <label htmlFor='email'>Your Email</label> <br />
-                     <input type='text' name='email' id='email'></input>
+                     <input type='text' name='email' id='email' required></input>
                   </div>
                   <div>
-                     <label id='name'>Subject</label> <br />
-                     <input type='text' name='name' id='name'></input>
+                     <label htmlFor='subject'>Subject</label> <br />
+                     <input type='text' name='subject' id='subject' required></input>
                   </div>
                   <div>
-                     <p><label for="w3review">Message</label></p>
-                     <textarea id="w3review" name="w3review" rows="9" cols="55" />
+                     <p><label htmlFor="message">Message</label></p>
+                     <textarea id="message" name="message" rows="9" cols="55" required/>
 
                   </div>
                   <div>
-                     <button type='submit' className='submit-btn'>Send Message</button>
+                     <button type='submit' className='submit-btn' >Send Message</button>
                   </div>
-               </div>
+               </form>
             </div>
          </div>
       </div>
